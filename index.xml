@@ -6,9 +6,48 @@
     <description>Recent content on Mr.Bian, a HITer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 07 Mar 2020 21:46:12 +0800</lastBuildDate>
     
 	<atom:link href="https://HITbzk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LeetCode43</title>
+      <link>https://HITbzk.github.io/post/leetcode43/</link>
+      <pubDate>Sat, 07 Mar 2020 21:46:12 +0800</pubDate>
+      
+      <guid>https://HITbzk.github.io/post/leetcode43/</guid>
+      <description>本题主要考查对乘法运算的理解以及数组的认识，思路如下：
+首先思考正常的两数乘法，无非是取一个数的一位和另一个数的一位相乘，再根据坐在位置进行乘10判断，在加上进位和之前进行乘法操作后该位置的值并进位，但是这个题明确说了不能用大数类型的库（如BigInteger），这里也是在暗示我们如果直接相乘肯定会溢出，所以我们考虑开一个数组存储结果的每一位，再模拟乘法的真实过程，最后转字符串时去掉前面的0即可得出结果
+class Solution { public String multiply(String num1, String num2) { int len1 = num1.length(); int len2 = num2.length(); if (len1 == 0 || len2 == 0) return &amp;#34;0&amp;#34;; int[] res = new int[len1 + len2]; for (int i = len1 - 1; i &amp;gt;= 0; i--) { for (int j = len2 - 1; j &amp;gt;= 0; j--) { int mul = (num1.charAt(i) - &amp;#39;0&amp;#39;) * (num2.charAt(j) - &amp;#39;0&amp;#39;); int lowIndex = i + j + 1; int highIndex = i + j; mul += res[lowIndex]; res[lowIndex] = mul % 10; res[highIndex] += mul / 10; } } int index = 0; StringBuilder sb = new StringBuilder(); while (index &amp;lt; len1 + len2 &amp;amp;&amp;amp; res[index] == 0) index++; while (index &amp;lt; len1 + len2) sb.</description>
+    </item>
+    
+    <item>
+      <title>Mythirdblog</title>
+      <link>https://HITbzk.github.io/post/mythirdblog/</link>
+      <pubDate>Sat, 07 Mar 2020 18:29:51 +0800</pubDate>
+      
+      <guid>https://HITbzk.github.io/post/mythirdblog/</guid>
+      <description>This is my third blog!!! </description>
+    </item>
+    
+    <item>
+      <title>MySecondBlog</title>
+      <link>https://HITbzk.github.io/post/mysecondblog/</link>
+      <pubDate>Sat, 07 Mar 2020 18:00:59 +0800</pubDate>
+      
+      <guid>https://HITbzk.github.io/post/mysecondblog/</guid>
+      <description>This is my second blog!!!</description>
+    </item>
+    
+    <item>
+      <title>Myfirstblog</title>
+      <link>https://HITbzk.github.io/post/myfirstblog/</link>
+      <pubDate>Sat, 07 Mar 2020 17:20:25 +0800</pubDate>
+      
+      <guid>https://HITbzk.github.io/post/myfirstblog/</guid>
+      <description>This is my first blog! </description>
+    </item>
     
   </channel>
 </rss>
