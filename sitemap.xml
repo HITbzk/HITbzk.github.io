@@ -3,21 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://HITbzk.github.io/post/myfirstblog/</loc>
-    <lastmod>2020-03-07T17:20:25+08:00</lastmod>
+    <loc>https://HITbzk.github.io/post/mysecondblog/</loc>
+    <lastmod>2020-03-07T18:00:59+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://HITbzk.github.io/</loc>
-    <lastmod>2020-03-07T17:20:25+08:00</lastmod>
+    <lastmod>2020-03-07T18:00:59+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://HITbzk.github.io/post/</loc>
+    <lastmod>2020-03-07T18:00:59+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://HITbzk.github.io/post/myfirstblog/</loc>
     <lastmod>2020-03-07T17:20:25+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
