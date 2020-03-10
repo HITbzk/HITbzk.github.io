@@ -6,10 +6,23 @@
     <description>Recent content on Mr.Bian, a HITer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Mar 2020 21:46:12 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2020 18:14:33 +0800</lastBuildDate>
     
 	<atom:link href="https://HITbzk.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LeetCode45</title>
+      <link>https://HITbzk.github.io/post/leetcode45/</link>
+      <pubDate>Tue, 10 Mar 2020 18:14:33 +0800</pubDate>
+      
+      <guid>https://HITbzk.github.io/post/leetcode45/</guid>
+      <description>本题是一个贪心算法的例子，以前没怎么接触过贪心算法，这里是第一个例子 我们以2 3 1 1 4 2 1数组为例：
+按正常思维，我们肯定会第一次跳到3，第二次跳到4，然后结束，那编程怎么办？利用贪心算法。
+利用贪心算法，主要思想就是：
+ 能不跳就不跳 实在没办法再跳，而且要跳到下标最大的地方，这样次数最少  具体操作见如下代码
+public int jump(int[] nums) { int end = 0; int maxPosition = 0; int steps = 0; for(int i = 0; i &amp;lt; nums.length - 1; i++){ //找能跳的最远的  maxPosition = Math.max(maxPosition, nums[i] + i); if( i == end){ //遇到边界，就更新边界，并且步数加一  end = maxPosition; steps++; } } return steps; } </description>
+    </item>
     
     <item>
       <title>LeetCode43</title>

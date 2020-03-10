@@ -3,21 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://HITbzk.github.io/post/leetcode43/</loc>
-    <lastmod>2020-03-07T21:46:12+08:00</lastmod>
+    <loc>https://HITbzk.github.io/post/leetcode45/</loc>
+    <lastmod>2020-03-10T18:14:33+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://HITbzk.github.io/</loc>
-    <lastmod>2020-03-07T21:46:12+08:00</lastmod>
+    <lastmod>2020-03-10T18:14:33+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://HITbzk.github.io/post/</loc>
+    <lastmod>2020-03-10T18:14:33+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://HITbzk.github.io/post/leetcode43/</loc>
     <lastmod>2020-03-07T21:46:12+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
